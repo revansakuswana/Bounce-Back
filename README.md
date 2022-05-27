@@ -4,8 +4,9 @@
 | Galih Ramadhan             | 120140104 | [ramadhangalih12](https://github.com/ramadhangalih12)     |
 | Revansa Helsa Kuswana      | 120140096 | [revansakuswana](https://github.com/revansakuswana)       |
 | Muhammad Bayu Pradana      | 119140144 | [Bayuprdana](https://github.com/Bayuprdana)               |
+| Tamara Dwi Rahmadona       | 119140196 | [tamaradona](https://github.com/tamaradona)               |
 | Tumbur Aprian Simorangkir  | 120140106 |                                                           |
-| Tamara Dwi Rahmadona       | 119140196 |                                                           |
+
 
 ## Bounce-Back
 #### Deskripsi Projek
