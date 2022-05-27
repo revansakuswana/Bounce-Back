@@ -5,7 +5,7 @@
 | Revansa Helsa Kuswana      | 120140096 | [revansakuswana](https://github.com/revansakuswana)       |
 | Tumbur Aprian Simorangkir  | 120140106 | [naufaldewanto37](https://github.com/naufaldewanto37)     |
 | Tamara Dwi Rahmadona       | 119140196 | [Zkaaaaaaa](https://github.com/Zkaaaaaaa)                 |
-| Muhammad Bayu Pradana      | 119140144 | [riecho14](https://github.com/riecho14)                   |
+| Muhammad Bayu Pradana      | 119140144 | [Bayuprdana](https://github.com/Bayuprdana)               |
 | Andri Setiawan             | 120140191 | [Andri450](https://github.com/Andri450)                   |
 
 ## Bounce-Back
