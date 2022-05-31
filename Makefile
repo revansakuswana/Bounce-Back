@@ -21,13 +21,16 @@ run-linux:	xhost
 	-v ~/Downloads:/home/docker \
 	hldtux/pygame
 
+open-socat:
+	socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+
 run-mac:	xhost
+	IP=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')
 	docker run --privileged -it --rm -u 1000:1000 \
 	--cap-add=SYS_PTRACE \
 	-v /tmp/.X11-unix:/tmp/.X11-unix \
-	-e DISPLAY=docker.for.mac.host.internal:0 \
+	-e DISPLAY=$IP:0 \
 	-v ~/.config/pulse:/run/user/1000/pulse \
-	-v ~/Downloads:/home/docker \
 	hldtux/pygame
 
 run-windows:
