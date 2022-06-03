@@ -44,6 +44,10 @@ ARG PW=docker
 RUN useradd -m ${USER} --uid=${UID} --shell /bin/bash && echo "${USER}:${PW}" | chpasswd \
 && adduser docker sudo
 
+COPY . /home/${USER}
+
 # Setup default user, when enter docker container
 USER ${UID}:${GID}
 WORKDIR /home/${USER}
+
+CMD ["python3", "main.py"]
